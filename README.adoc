@@ -1,0 +1,35 @@
+= MySQL Scaffold
+
+This repository is a scaffold for running a MySQL instance in place. This instance runs in its own separate process, with its own data directory.  It uses the system mysql binary, but runs isolated from other MySQL processes. 
+
+Currently depends on XAMPP to be installed, but will be refining to work with any existing installation of MySQL. 
+
+== Installation
+
+[source,bash]
+----
+$ git clone https://github.com/shannah/mysql-scaffold
+----
+
+
+== Usage
+
+**Starting MySQL**
+
+[source,bash]
+----
+$ sh mysql.server.sh start
+----
+
+**Stopping MySQL**
+
+[source,bash]
+----
+$ sh mysql.server.sh stop
+----
+
+
+
+== Credits
+
+* Created by https://sjhannah.com/[Steve Hannah]
