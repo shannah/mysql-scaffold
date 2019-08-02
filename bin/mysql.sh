@@ -10,7 +10,7 @@ init)
 ;;
 *)
     echo "Doing regular mysql"
-    mysql --socket="$scaffolddir"/tmp/mysql.sock -u `php print_config_var.php _database.user` `php print_config_var.php _database.name`
+    mysql --socket="$scaffolddir"/tmp/mysql.sock 
     ERROR=$?
 ;;
 esac
